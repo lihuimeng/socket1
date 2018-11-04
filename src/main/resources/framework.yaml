@@ -1,0 +1,7 @@
+redisClient:
+   poolMaxTotal:1000
+   poolMaxIdle:100
+   poolMaxWaitMillis:1000
+   poolTestOnBorrow:true
+   poolTestOnReturn:true
+   uri:tcp://172.28.250.43:6380/1
